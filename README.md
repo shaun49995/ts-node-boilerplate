@@ -47,7 +47,6 @@ npm run dev
 - `npm run deploy` - Deploy the application to Google Cloud Run.
 
 ## Dependencies
-- `body-parser`
 - `dotenv`
 - `express`
 
