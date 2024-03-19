@@ -1,5 +1,4 @@
 import express, { Express } from 'express';
-import bodyParser from 'body-parser';
 import { functionRoutes, staticRoutes } from './routes/index';
 import dotenv from 'dotenv';
 

@@ -18,8 +18,6 @@ COPY package*.json ./
 
 RUN npm install --only=production
 
-ENV SAMPLE_ENV=1234abcd 
-
 COPY --from=development /usr/src/app/dist ./dist
 
 EXPOSE 8080

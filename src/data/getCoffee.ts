@@ -1,6 +1,10 @@
+import dotenv from 'dotenv';
+
+dotenv.config();
+
 export const getCoffee = async () => {
 	try {
-		const response = await fetch('https://api.sampleapis.com/coffee/hot', {
+		const response = await fetch(`https://${process.env.SERVER_URL}/coffee/hot`, {
 			method: 'GET',
 			headers: {
 				'Content-Type': 'application/json',
