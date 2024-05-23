@@ -59,7 +59,7 @@ npm run dev
 - `typescript`
 
 ## Contributing
-Contributions are welcome! Please feel free to submit a pull request.
+Contributions are welcome! Please feel free to submit a pull request to contribute.
 
 ## Bug Reporting
 Found a bug? Please report it [here](https://github.com/shaun49995/ts-node-boilerplate/issues).
